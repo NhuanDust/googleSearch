@@ -1,0 +1,329 @@
+.grid{
+    width: 1900px;
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    height: 50px;
+    padding: 10px 6px;
+}
+.head__nav{
+    display: flex;
+    padding: 0px 4px 0px 32px;
+    align-items: center;
+    float: right;
+}
+.head__text{
+    display: flex;
+    padding: 0px 15px;
+    padding-top: 5px;
+    font-size: 13px;
+    color: #000000DE;
+    font-weight: 200;
+}
+.head__text-img{
+    padding-left: 15px;
+}
+.head__cag{
+    display: flex;
+    align-items: center;
+}
+.head__cag-icon{
+    color: #5f6368;
+    margin-left: 5px;
+    margin-right: 20px;
+    padding-left: 9px;
+    font-size: 18px;
+    height: 38px;
+    width: 29px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+.head__cag-icon:hover{
+    background-color: #f0f0f0f0;
+
+}
+.fa-ellipsis-vertical{
+    padding: 0.9px;
+    margin: 0px;
+}
+.head__cag-name{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: #455a64;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.head__cag-name{
+    position: relative;
+}
+.name-hover{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 145%;
+    right: 420%;
+    padding: 0px 10px;
+    border-radius: 4px;
+    display: none;
+}
+.name-acc{
+    font-size: 14px;
+    line-height: 14px;
+    color: #e4e6e9;
+    margin: 0px;
+    margin-top: 2px;
+    padding: 3px 0px 0px 0px;
+    font-weight: 500;
+}
+.name-info1{
+    margin: 0;
+    font-size: 13px;
+    line-height: 13px;
+    color: #e4e6e9;
+    padding: 2px 0px;
+    opacity: 0.75;
+}
+.name-info2{
+    margin: 0;
+    font-size: 12.5px;
+    line-height: 12.5px;
+    color: #e4e6e9;
+    margin-bottom: 4px;
+    opacity: 0.75;
+}
+.head__cag-name:hover .name-hover{
+    display: block;
+}
+.name-D{
+    color: white;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.name-D,.head__cag-icon:hover{
+    cursor: pointer;
+}
+.head__text-gmail:hover,.head__text-img:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.main-logo{
+    display: flex;
+    height: 295px;
+}
+.logo-img{
+    padding-top: 198px;
+    height: 92px;
+    width: 272px;
+    margin: auto;
+}
+.main-search{
+    padding: 20px;
+
+}
+.main-search-bar:hover{
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.07);
+}
+.main-search-bar{
+    display: flex;
+    align-items: center;
+    width: 582px;
+    height: 44px;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+.search-voice{
+    height: 24px;
+    width: 24px;
+    padding: 0px 8px;
+    position: relative;
+}
+.search-camera{
+    position: relative;
+}
+.search-camera img{
+    height: 24px;
+    width: 24px;
+    padding: 0px 8px;
+    padding-top: 2px;
+}
+.search-icon i{
+    font-size: 14.8px;
+    color: rgba(0, 0, 0, 0.4);
+    padding-left: 14px;
+    padding-right: 8px;
+}
+.search-input{
+    width: 410px;
+    height: 28px;
+    border: none;
+    outline: none;
+}
+.search-key{
+    font-size: 20px;
+    height: 24px;
+    width: 24px;
+    padding-top: 6px;
+    padding-left: 12px;
+    padding-right: 4px;
+    color: rgba(0, 0, 0, 0.8);
+    position: relative;
+}
+.search-key:hover .search-key-hover{
+    display: block;
+}
+.search-key-hover{
+    background-color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    padding: 7px 8px;
+    width: 80px;
+    font-size: 11px;
+    color: white;
+    text-align: center;
+    line-height: 100%;
+    top: 150%;
+    left: -60%;
+    display: none;
+}
+.search-key-hover::after{
+    content: "";
+    position: absolute;
+    right: 43%;
+    top: -50%;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent rgba(0, 0, 0, 0.85) transparent ;
+
+}
+.search-voice-hover{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 7px 8px;
+    width: 130px;
+    font-size: 11px;
+    color: white;
+    text-align: center;
+    line-height: 100%;
+    top: 175%;
+    left: -130%;
+    display: none;
+
+}
+.search-voice-hover::after{
+    content: "";
+    position: absolute;
+    right: 46.5%;
+    top: -50%;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent rgba(0, 0, 0, 0.85) transparent ;
+
+}
+.search-camera-hover{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 7px 8px;
+    width: 120px;
+    font-size: 11px;
+    color: white;
+    text-align: center;
+    line-height: 100%;
+    top: 150%;
+    left: -130%;
+    display: none;
+}
+.search-camera-hover::after{
+    content: "";
+    position: absolute;
+    right: 42.5%;
+    top: -50%;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent rgba(0, 0, 0, 0.85) transparent ;
+
+}
+.search-voice:hover .search-voice-hover{
+    display: block;
+}
+.search-camera:hover .search-camera-hover{
+    display: block;
+}
+.search-key,.search-voice,.search-camera:hover{
+    cursor: pointer;
+}
+.main-after-search{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 18px;
+}
+.main-after-text1,.main-after-text2{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    padding: 0px 16px;
+    margin: 11px 5px;
+    border-radius: 4px;
+    line-height: 36px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    color: #3c4043;
+}
+.main-after-text1:hover,.main-after-text2:hover{
+    border: 0.5px solid rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 0px 0.5px 0.5px rgba(0, 0, 0, 0.08);
+
+}
+.language-text{
+    padding-top: 12px;
+    text-align: center;
+    color: #4d5156;
+    font-size: small;
+}
+.text-highlight{
+    color: #1a0dab;
+    padding: 0 4px;
+}
+.footer{
+    display: block;
+    margin-top: 16.33%;
+}
+.footer-b{
+    padding: 0px 20px;
+    height: 48px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #dadce0;
+}
+.religion{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.plc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-text{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 14.2px;
+    padding: 15px;
+    color: #70758d;
+}
+.footer-text:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footer-text2:hover{
+    cursor:text;
+    text-decoration: none;
+}
+
